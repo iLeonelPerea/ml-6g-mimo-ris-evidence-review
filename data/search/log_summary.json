@@ -1,0 +1,10 @@
+{
+ "built_utc": "2026-10-22T01:05:00+00:00",
+ "export": "data/search/openalex_2026-10-21",
+ "identified": 1426,
+ "duplicates_removed": 0,
+ "to_screen": 1426,
+ "flags": {},
+ "same_title_other_doi": [],
+ "python": "3.14.5"
+}

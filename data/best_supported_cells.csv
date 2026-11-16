@@ -1,0 +1,377 @@
+doi,key,area,method,function,data
+10.1109/lcomm.2024.3396567,Shang2024design,1,DL (DenseNet) and transfer learning,Full MIMO-OFDM receiver fine-tuned when the scene changes,"QuaDRiGa, 3GPP TR~37.885 urban scenario"
+10.1109/lwc.2024.3387991,Luo2024integrating,1,DL (FFNN),Symbol detection in a $2\times2$ molecular MIMO link,Measured responses of a molecular MIMO prototype
+10.1109/ojcoms.2026.3679776,Zhang2026score,1,Flow matching (U-Net prior),Joint channel estimation and detection with superimposed pilots in MIMO-OFDM,3GPP CDL at 3.5~GHz
+10.1109/tcomm.2023.3348839,Huleihel2024papr,1,Autoencoder (CNN) and unfolding (PGD),Low-PAPR MIMO-OFDM transmitter with an iterative detector under a nonlinear amplifier,3GPP TDL-A (MATLAB 5G Toolbox)
+10.1109/tsp.2025.3594197,11113418,1,DL (equivariant MLP and CNN),"ChannelNet, a purely data-driven massive MIMO detector","Rayleigh, Kronecker, and QuaDRiGa 3D-UMa"
+10.1109/tvt.2025.3579989,Raviv2025uncertainty,1,Bayesian DL (unfolded DeepSIC and WBP),Calibrated MIMO detection and soft decoding,COST~2100 indoor hall and synthetic channels
+10.1109/twc.2024.3388603,Sun2024trainable,1,Unfolding (ADMM),"Joint channel estimation, detection, and LDPC decoding for MIMO URLLC","i.i.d., Kronecker, and Saleh-Valenzuela (custom)"
+10.1109/twc.2024.3422794,Wu2024source,1,Vision Transformer,Image transmission over MIMO with joint source-channel coding,i.i.d. Gaussian block fading (custom) and image datasets
+10.1109/twc.2024.3498941,Qian2025trained,1,Autoencoder and Bayesian optimization,Path-sampling soft detector with trained parameters for LDPC-coded MIMO,3GPP TDL-A and TDL-D (5G NR link simulator)
+10.1109/twc.2024.3514931,Zhang2025hypernetwork,1,Unfolding (ISTA) and hypernetwork,"hyperDISTA, a detector that carries across channel scenarios with semi-supervised retraining",Rician-type and Kronecker (custom)
+10.1109/twc.2025.3543176,Liu2025gnnbigamp,1,GNN within BiG-AMP,Joint channel estimation and detection for the massive MIMO uplink,Rayleigh and Kronecker (custom)
+10.1109/twc.2025.3561242,Jere2025towardxai,1,Reservoir computing (windowed ESN),MIMO-OFDM detection with weights set from channel statistics,"3GPP CDL-D, CDL-E, and SCM"
+10.1109/twc.2025.3620862,Guo2026iai,1,Unfolding and Transformer,"Learned air interface with modulation, CSI feedback, and joint estimation and detection","QuaDRiGa (RMa, UMa, and UMi)"
+10.1109/twc.2026.3679383,Chen2026simoamp,1,Unfolding (OAMP) and attention,OAMP-CDT detector for a SIM-enabled transmitter,Rayleigh and QuaDRiGa 3D MIMO
+10.1109/twc.2026.3705756,Zhang2026stacked,1,End-to-end DNN with SIM layers,"Learned modulation, demodulation, and SIM precoding for OFDM",Geometric multipath (custom)
+10.1109/jiot.2024.3436024,Shen2024bilstm,2,DL (BiLSTM autoencoder),Adaptive eigenvector CSI feedback for variable subbands and feedback bits,3GPP CDL-A and CDL-C
+10.1109/jiot.2025.3590631,Cao2025mmimo,2,GAN with gossip learning,Low-overhead training of CSI feedback on synthetic CSI,DeepMIMO O1 at 28~GHz
+10.1109/jiot.2025.3606946,Fan2025lightweight,2,DL (attention autoencoder),Lightweight CSI feedback with a denoising block for noisy codewords,COST~2100
+10.1109/jsac.2025.3531576,Chen2025channel,2,DL (MLP-mixer with LSTM or Transformer),Channel deduction from outdated samples and a coarse estimate,DeepMIMO O1 at 3.5~GHz
+10.1109/jsac.2025.3584499,Xie2025cfcgn,2,Cycle-consistent generative CNNs,"CF-CGN, extrapolation of channel fingerprints across frequency bands",QuaDRiGa
+10.1109/jsac.2025.3610425,Yang2026unfolding,2,Unfolding (LISTA) and meta-learning,Radar-assisted mmWave channel estimation with imperfect radar arrays,Geometric (custom) and 3GPP CDL-E
+10.1109/jsac.2025.3647607,Li2026bridging,2,LLM (GPT-2 with LoRA) and distillation,Channel prediction with a semantically aligned LLM,QuaDRiGa UMa
+10.1109/jsac.2026.3663274,Cai2026activity,2,Score-based prior in message passing,Joint activity detection and channel estimation for grant-free access,3GPP CDL (QuaDRiGa)
+10.1109/jsac.2026.3666741,Ankireddy2026residual,2,Autoencoder and residual diffusion,Variable-rate joint source-channel coding of CSI feedback,COST~2100 and QuaDRiGa
+10.1109/jstsp.2024.3405851,Chen2024complex,2,Complex CNN,CSI enhancement for uplink ISAC,Multipath model (custom)
+10.1109/jstsp.2025.3549952,Chatelier2025multi,2,Model-based network (MLPs and hypernetworks),Location-to-channel mapping across antennas and frequencies,Sionna ray tracing (Paris scenes)
+10.1109/lcomm.2024.3350210,Zhang2024continuous,2,DL (CRNet) and continual learning,Online CSI feedback that keeps its accuracy on earlier scenarios,"3GPP CDL-A, CDL-C, and CDL-D"
+10.1109/lcomm.2024.3462977,Sun2024effective,2,Conformer and VQ-VAE,CSI feedback with discrete latent representations,COST~2100
+10.1109/lcomm.2025.3558561,Wu2025cgan,2,Conditional GAN and FFNN,Data augmentation for channel prediction in subway tunnels,Own measurements at 3.5~GHz in a metro tunnel
+10.1109/lcomm.2025.3645078,Wang2026channel,2,Diffusion model (DDIM),Direct and cascaded channel estimation for RIS-assisted mmWave,3GPP TR~38.901-based (SimRIS)
+10.1109/lwc.2024.3361916,Li2024dual,2,Unfolding (AMP) and DnCNN,Channel estimation with one-bit ADCs,3GPP CDL-D
+10.1109/lwc.2024.3368558,Zhang2024data,2,DL (CRNet) and data augmentation,Augmentation against the delay gap in CSI feedback,COST~2100
+10.1109/lwc.2024.3372148,Mourya2024spectral,2,GNN (spectral temporal),Prediction of compressed CSI at the BS,3GPP UMa (TR~38.901)
+10.1109/lwc.2024.3387578,Li2024progressive,2,DL (attention) with progressive learning,Channel prediction under the phase noise of independent oscillators,3GPP CDL-C with phase noise
+10.1109/lwc.2024.3402817,Liu2024block,2,LMMSE and 3D CNN,Block-wise planar channel estimation for time-varying MIMO-OFDM,3GPP CDL-B
+10.1109/lwc.2024.3402968,Qiu2024federated,2,Federated learning (CNN),Cascaded RIS channel estimation with region-specific networks,DeepMIMO O1
+10.1109/lwc.2024.3407813,Gao2024darenet,2,DL (CNN autoencoder),"DARENet, eigenvector-based CSI feedback",Public 3GPP CDL and UMa datasets
+10.1109/lwc.2024.3411065,Tan2024global,2,DL (GRU and convolution),"GLCsiNet, CSI feedback with global and local features",COST~2100
+10.1109/lwc.2024.3427316,Alam2024dcsinet,2,DL (attention autoencoder),"DCsiNet, CSI feedback that handles noisy codewords",COST~2100 indoor
+10.1109/lwc.2024.3452486,Zhang2024end,2,Autoencoder,"End-to-end link with task-driven pilots and feedback, without explicit estimation",QuaDRiGa UMi
+10.1109/lwc.2024.3454425,Zhao2024hccnet,2,DL (CNN with criss-cross attention),"HCC-Net, CSI feedback",COST~2100
+10.1109/lwc.2024.3457896,Zhang2024zone,2,DL (FFNN autoencoders per zone),Zone-specific CSI feedback chosen by user position,DeepMIMO Boston5G
+10.1109/lwc.2024.3474570,Fesl2024dmprior,2,Diffusion model,Low-complexity diffusion prior for MIMO channel estimation,3GPP spatial channel model and QuaDRiGa
+10.1109/lwc.2024.3493236,Li2025metaformer,2,MetaFormer (PoolFormer),"PFNet, lightweight CSI feedback",COST~2100 and 3GPP CDL
+10.1109/lwc.2024.3503066,Turan2025vq,2,VQ-VAE,Quantized feedback for robust multiuser FDD precoding,"Measured (Nokia campus, Stuttgart)"
+10.1109/lwc.2024.3511553,Zhao2025enhanced,2,Meta-transfer learning (CNN autoencoder),CSI feedback adapted to new environments,3GPP CDL-A to CDL-E
+10.1109/lwc.2025.3539633,Su2025lora,2,DL (residual CNN),Channel estimation for RIS-assisted LoRa,Rayleigh and Rician (custom)
+10.1109/lwc.2025.3559228,Zheng2025channel,2,Implicit unfolding (CNN prior),Near-field wideband XL-MIMO channel estimation,Spherical-wave model (custom)
+10.1109/lwc.2025.3566493,Liu2025self,2,Self-supervised DL (U-Net),Refinement of channel estimates obtained with low-resolution ADCs,DeepMIMO O1 at 28~GHz
+10.1109/lwc.2025.3570738,Huang2025feedback,2,DL (EVCsiNet) and online learning,CSI feedback trained on digital twins and validated on measurements,Ray-traced digital twin and own measurements at 3.8~GHz
+10.1109/lwc.2025.3574011,Zhang2025residual,2,Transformer (cross-attention) and DJSCC,Multiuser CSI feedback over a noisy uplink,QuaDRiGa UMa
+10.1109/lwc.2025.3590800,Jin2025enhancing,2,Diffusion model (DDIM),MIMO channel estimation across antenna spacings,3GPP CDL-C and CDL-D at 40~GHz
+10.1109/lwc.2025.3600061,Lee20253d,2,DL (3D CNN) and meta-learning,MIMO-OFDM channel estimation in two domains with online adaptation,3GPP TDL-D (MATLAB 5G Toolbox)
+10.1109/ojcoms.2024.3449341,Ko2024channel,2,DL (MLP) with aggregated learning,Channel prediction with little online training data,"QuaDRiGa UMi, UMa, and RMa"
+10.1109/ojcoms.2025.3544871,Lin2025compressed,2,Generative model (DCGAN) and compressed sensing,Wideband THz ultra-massive MIMO channel estimation by latent optimization,"TeraMIMO, built on measurement data"
+10.1109/ojcoms.2025.3575947,Rapudu2025channel,2,DL (DnCNN and BiLSTM),Cascaded channel estimation for wideband multi-RIS mmWave MIMO-OFDM under beam squint,DeepMIMO O1 at 60~GHz
+10.1109/ojcoms.2025.3600616,Aboulfotouh20256gwavesfm,2,Foundation model (ViT),"6G WavesFM, fine-tuned for uplink MIMO-OFDM channel estimation",3GPP UMi (Sionna) and measured RF data
+10.1109/ojcoms.2026.3699200,Yildirim2026gans,2,Conditional GAN and classifiers,Path angles generated from locations as the support of channel estimation,DeepMIMO O1 at 60~GHz and Boston5G
+10.1109/ojcoms.2026.3702034,Nga2026dt,2,"GAN, WGAN-GP, and VAE-WGAN",Comparison of training schemes for GAN-based digital-twin channel models,"Measured CIRs (5.9~GHz, 2.565~GHz, and 60~GHz)"
+10.1109/tccn.2024.3391309,Ye2024generative,2,Conditional GAN (Pix2pix),Cascaded and direct channel estimation for RIS-assisted mmWave MIMO,Saleh-Valenzuela (custom)
+10.1109/tccn.2024.3435478,CarroCalvo2025massive,2,DL (CNN),Time-frequency channel reconstruction at each massive MIMO antenna,3GPP CDL-A
+10.1109/tccn.2024.3435915,Shehzad2025design,2,DL (LSTM),CSI feedback of the prediction error with twin predictors at the UE and the gNB,"Measured (Nokia Bell Labs, Stuttgart) and 3GPP CDL"
+10.1109/tccn.2024.3454222,Wang2025data,2,Denoising CNN and DCGAN augmentation,Cascaded RIS channel estimation without ground-truth channels,Rician and Rayleigh (custom)
+10.1109/tccn.2024.3486168,Wang2025crissnet,2,DL (CNN with criss-cross attention),"CRissNet, lightweight CSI feedback",COST~2100
+10.1109/tccn.2025.3597694,Ye2026improved,2,Conditional GAN,Refinement of LS estimates for multiuser MIMO-OFDM,3GPP SCM (UMi and UMa)
+10.1109/tccn.2025.3605377,Zhang2026vision,2,"CNN, attention, and LSTM",Vision-assisted near-field XL-MIMO channel estimation,"DeepSense~6G scenario 36 images and GPS (measured), analytic near-field channel"
+10.1109/tcomm.2024.3369702,Wan2024plug,2,Plug-and-play CNN denoiser,"One learned prior for channel estimation, antenna extrapolation, and CSI feedback",DeepMIMO O1 at 28~GHz
+10.1109/tcomm.2024.3376602,Huang2024frequency,2,DL (convolutional autoencoder and ConvGRU),Prediction of the channel in frequency bands that were not measured,Own measurements from 0.7 to 3.7~GHz
+10.1109/tcomm.2024.3384256,Fan2024compression,2,DL (convolution and attention),CSI compression for dual-polarized channels with disentangled representations,3GPP CDL-A to CDL-D and QuaDRiGa
+10.1109/tcomm.2024.3402619,Xiao2024multi,2,Multi-task DL (attention),Near- and far-field cascaded channel estimation for STAR-RIS,Hybrid-field clustered model (custom) after TR~38.901
+10.1109/tcomm.2024.3416889,Xie2024poolcsinet,2,DL (CNN autoencoder),"PoolCsiNet, CSI feedback with a parameter-free encoder at the UE",COST~2100 and QuaDRiGa UMi
+10.1109/tcomm.2024.3477289,Chen2025downlink,2,Unfolding (block-sparse recovery),Downlink FDD channel estimation exploiting angular sparsity,3GPP SCM UMi
+10.1109/tcomm.2025.3545679,Xu2025federated,2,"Federated learning (CNN, FedVR)",Distributed channel estimation in cell-free massive MIMO,QuaDRiGa UMa and indoor office
+10.1109/tcomm.2025.3556753,Chen2025generative,2,Diffusion model and variational inference,MIMO channel estimation with a pilot density below one,3GPP CDL-A to CDL-D
+10.1109/tcomm.2025.3581115,Bayraktar2025uplink,2,"DL (GRU, ResNet, and 3D CNN)",Precoder prediction from PMI feedback and denoised SRS against channel aging,3GPP CDL-C (Sionna)
+10.1109/tcomm.2025.3615768,Zhu2025multi,2,Transformer (spatial attention),Near-field XL-MIMO channel estimation,Extended Saleh-Valenzuela and QuaDRiGa UMi
+10.1109/tcomm.2025.3618696,MomenTayefeh2025multi,2,DL (attention CNN),Cascaded RIS channel estimation with deactivated elements,3GPP CDL (UMi) at 28~GHz
+10.1109/tcomm.2025.3618710,Luo2025digital,2,DL (CSINet+) and fine-tuning,CSI feedback trained on digital twins of varying fidelity,DeepMIMO ray tracing of downtown Boston
+10.1109/tcomm.2026.3678629,Shen2026gans,2,GAN (ResNet generator),"ReRpGAN, channel estimation with one-bit ADCs",DeepMIMO Boston at 3.5~GHz
+10.1109/tgcn.2024.3410049,Qi2025channel,2,DL (CNN and Transformer),Learned RIS element selection and extrapolation of time-varying channels,DeepMIMO O1
+10.1109/tgcn.2025.3599914,Niu2026mmimo,2,Conditional GAN with adaptive quantization,mmWave channel estimation with low-resolution ADCs,DeepMIMO indoor
+10.1109/tgcn.2026.3693617,Nguyen2026generative,2,VAE with adversarial training,Time-frequency-space MIMO-OFDM channel estimation,3GPP CDL-B (Sionna) and ray tracing
+10.1109/tmc.2026.3673506,Kim2026vision,2,Swin Transformer and causal VAE,Vision-aided THz channel estimation,CARLA scenes with ray tracing (custom)
+10.1109/tmc.2026.3696984,Qian2026caftra,2,Transformer (learnable queries),"CaFTRA, CSI parameters predicted from geolocation instead of feedback",Vienna 5G system-level simulator
+10.1109/tmc.2026.3717110,Liang2026environment,2,Conditional flow matching (multimodal),"Pilot-free CSI inference from camera, LiDAR, and GPS",Sionna ray tracing and Blender sensing data
+10.1109/tmlcn.2024.3432865,Sattari2024full,2,DL (CNN and FFNN),Channel and self-interference estimation for full-duplex mmWave MIMO,"Geometric and Rician (custom), DeepMIMO for testing"
+10.1109/tmlcn.2025.3547689,Wu2025paths,2,Denoising VAE with attention,RIS-MIMO channel estimation joint with link management,3GPP CDL (MATLAB)
+10.1109/tmlcn.2025.3559472,Hashempoor2025data,2,Variational Bayes MLPs and classifier,Data-assisted channel estimation and detection,"3GPP TDL-A, TDL-B, and TDL-C"
+10.1109/tmlcn.2025.3638983,Kim2026clustered,2,Clustered federated learning (autoencoders),Context-dependent CSI decoding with cluster-specific decoders,COST~2100 and QuaDRiGa
+10.1109/tmlcn.2026.3694830,Cheng2026csi4cast,2,"DL (CNN, ShuffleNet, and Transformer)","CSI-4CAST, CSI prediction tested for robustness and generalization in TDD and FDD","3GPP CDL-A, CDL-C, and CDL-D (Sionna)"
+10.1109/tmlcn.2026.3704874,Javid2026rss,2,Physics-informed ResUNet with attention,Channel estimation with RSS-map side information in the upper mid-band,Wireless InSite ray tracing (custom)
+10.1109/tmlcn.2026.3724779,Alam2026end,2,DL (CNN with attention),End-to-end CSI estimation and feedback for large RIS,DeepMIMO (RISnet pipeline)
+10.1109/tmlcn.2026.3742233,Sattari2026compression,2,DL (CNN autoencoder) with entropy coding,Fine-tuning of neural CSI compression with low-cost model updates,"DeepMIMO O1, QuaDRiGa, and 3GPP CDL-B"
+10.1109/tsp.2023.3348202,Zilberstein2024solving,2,Score-based diffusion (Langevin),Higher-order Langevin sampling for MIMO channel estimation,3GPP CDL-C
+10.1109/tsp.2024.3423660,Guo2024bayesian,2,Bayesian sparse autoencoder,Hierarchical CSI compression with adaptive range coding,COST~2100
+10.1109/tvt.2024.3364510,Gao2024lightweight,2,"DL (CNN), pruned and quantized","XLCNet, lightweight XL-MIMO channel estimation",Hybrid-field model (custom)
+10.1109/tvt.2024.3371012,Wang2024lde,2,Stochastic differential equation network,"LDE-Net, channel prediction evaluated in the field",Own campus measurements
+10.1109/tvt.2024.3381217,Gong2024tcn,2,DL (TCN) with pruning,Spatial-temporal extrapolation of RIS channels,DeepMIMO O1
+10.1109/tvt.2024.3436555,Xue2024learned,2,Swin Transformer decoder,Compression and restoration of beam measurements for coordinated hybrid beamforming,Saleh-Valenzuela with 3GPP path loss (custom)
+10.1109/tvt.2024.3446464,Shao2024quantized,2,Trainable compressed sensing and unfolding (ISTA),"QTCS, quantized CSI feedback with a one-matrix encoder",QuaDRiGa UMi and UMa
+10.1109/tvt.2024.3456102,Yang2025knowledge,2,"DL (residual CNN), self-supervised",Downlink channel inference from partial uplink observations in asymmetrical massive MIMO,DeepMIMO O1 at 28~GHz
+10.1109/tvt.2024.3465846,He2025angle,2,Message passing and attention network,Downlink CSI acquisition from sparse pilots in the angle-delay domain,"Public CAICT dataset, 3GPP UMa"
+10.1109/tvt.2024.3493463,Zeng2025csigpt,2,Swin Transformer and VAE,"CSI-GPT, joint pilots, estimation, and feedback with federated tuning","3GPP CDL-A, CDL-B, and CDL-C (Sionna)"
+10.1109/tvt.2025.3526617,Luan2025miagan,2,GAN (U-Net generator),"MIA-GAN, channel estimation with one-bit ADCs and few samples",DeepMIMO I1 at 2.4~GHz
+10.1109/tvt.2025.3549764,Chen2025transformer,2,Transformer-inspired attention,Adaptive CSI sensing with a learnable quantizer,DeepMIMO
+10.1109/tvt.2025.3567741,Li2025trajectory,2,DL (FFNN) and transfer learning,Differentiable channel knowledge map for the trajectory and power of cellular-connected UAVs,Public radio map of central Shanghai
+10.1109/tvt.2025.3572700,Zhang2025attention,2,DL (residual CNN with attention),Unified far- and near-field XL-MIMO channel estimation,Wavenumber-domain model (custom)
+10.1109/tvt.2025.3589434,Ye2025graph,2,GNN,Spatial-frequency GNN refinement of mmWave channel estimates,Three-path model (custom) after TR~38.901
+10.1109/tvt.2026.3654149,Ryu2026dm,2,Video Transformer and 3D CNN,Standards-compliant DM-RS allocation by temporal channel prediction,Sionna ray tracing (street canyon)
+10.1109/twc.2024.3374352,Shi2024automatic,2,Neural architecture search (CNN),Denoiser for cascaded RIS channel estimation found by architecture search,Rician (custom) and DeepMIMO O1
+10.1109/twc.2024.3376381,Zheng2024hampnet,2,Unfolding (ISTA and AMP),Joint activity detection and channel estimation for RIS-assisted massive access,Rayleigh and Rician (custom)
+10.1109/twc.2024.3376633,Shehzad2024massive,2,"DL (RNN, BiLSTM, and NeuralProphet)",CSI feedback with channel prediction at the BS and no ML at the UE,"Measured (Nokia Bell Labs, Stuttgart) and 3GPP CDL"
+10.1109/twc.2024.3380638,Wang2024knowledge,2,Unfolding (LAMP) and ResNet,Channel estimation and CSI feedback for wideband UM-MIMO under hybrid-field beam squint,Saleh-Valenzuela-based (custom)
+10.1109/twc.2024.3381211,Li2024facilitating,2,DL (CNN) with Learngene,Easier deployment of CSI feedback decoders through inherited layers,Wireless AI Research Dataset (ray tracing)
+10.1109/twc.2024.3390583,Liu2024feedback,2,Unfolding (ISTA) and transfer learning,CSI feedback adapted to new environments with small datasets,"COST~2100, measured KU Leuven CSI, and QuaDRiGa UMa"
+10.1109/twc.2024.3413858,Gong2024channel,2,"Selection networks, CNN, and VAE",Channel extrapolation for hybrid RIS with low-resolution ADCs,DeepMIMO O1 at 28~GHz
+10.1109/twc.2024.3418612,Zhou2024overhead,2,Transformer and GAN augmentation,Few-shot CSI feedback with frequency extrapolation,DeepMIMO I3 and O1
+10.1109/twc.2024.3418907,Li2024autocsinet,2,Neural architecture search (PC-DARTS),"Auto-CsiNet, scenario-customized CSI feedback decoders",QuaDRiGa UMi and COST~2100
+10.1109/twc.2024.3422399,Guo2024integrated,2,Autoencoder and FFNN,Integrated CSI feedback and localization,"DeepMIMO O1, O1 blockage, and O2"
+10.1109/twc.2024.3426525,Xu2024disentangled,2,VAE (disentangled representations),"DrCsiNet, CSI feedback assisted by uplink CSI",QuaDRiGa UMa and measured Dichasus CSI
+10.1109/twc.2024.3451561,Zhang2024hdngan,2,GAN (U-Net generator),"HDnGAN, channel estimation for time-varying mmWave massive MIMO","Saleh-Valenzuela, mobility models, and DeepMIMO O1"
+10.1109/twc.2024.3472612,Weng2024semantic,2,CNN-Transformer codec and CNN,Semantic speech-to-text over MIMO with learned channel refinement,Rayleigh (custom) and LibriSpeech
+10.1109/twc.2024.3486007,Bayraktar2024channel,2,Dictionary learning,RIS-aided joint channel estimation and localization under hardware impairments,Wireless InSite indoor factory
+10.1109/twc.2024.3487111,Xu2025estimate,2,Online learning (StructNet),Real-time MIMO-OFDM channel estimation in each slot,QuaDRiGa UMa NLoS
+10.1109/twc.2024.3505239,Lin2025physics,2,DL (CNN) and unfolding (ISTA),Anti-aliasing upsampling of sparse CSI-RS in CSI feedback,QuaDRiGa UMa
+10.1109/twc.2024.3524911,Zhou20253d,2,Attention network and generative Transformer,Low-overhead TDD channel estimation by 3D extrapolation at high mobility,3GPP CDL-B (MATLAB 5G Toolbox)
+10.1109/twc.2025.3531447,Ma2025complexity,2,Learning to optimize (MLP and LSTM),Low-complexity CSI feedback with a linear encoder,COST~2100 and QuaDRiGa indoor
+10.1109/twc.2025.3546671,Rapudu2025channelesti,2,DL (DnCNN and GRU),Two-timescale channel estimation for multi-RIS mmWave MIMO-OFDM,DeepMIMO O1 at 60~GHz
+10.1109/twc.2025.3549592,Zhou2025dmce,2,Diffusion model,"Diffusion prior for high-dimensional channel estimation, also with low-resolution ADCs",QuaDRiGa UMa LoS at 40~GHz
+10.1109/twc.2025.3558950,Jin2025linformer,2,DL (MLP-based Transformer),"LinFormer, channel prediction under channel aging",3GPP CDL-B and measured V2X CSI
+10.1109/twc.2025.3570631,Zheng2025convolutional,2,Unfolding (convolutional dictionary learning),Hybrid-field cascaded channel estimation for XL-RIS,Saleh-Valenzuela and hybrid-field (custom)
+10.1109/twc.2025.3600286,Lee2026generating,2,Diffusion model (conditional DDIM),User-specific channel synthesis that augments the data of CSI compression and beam alignment,QuaDRiGa UMa and DeepMIMO O1
+10.1109/twc.2025.3603182,Zhang2026cross,2,Transformer,Prediction of beamforming feedback between Wi-Fi sounding rounds,IEEE 802.11be channel model D
+10.1109/twc.2025.3604846,Fang2026idit,2,Diffusion Transformer (score SDE),"IDiT, near-field XL-MIMO channel estimation",Near-field model (custom)
+10.1109/twc.2025.3617502,Shi2026channelmamba,2,State-space model (Mamba),"ChannelMamba, channel prediction for high-mobility MIMO-OFDM",QuaDRiGa UMa and UMi
+10.1109/twc.2025.3623623,Jin2026channel,2,Conditional diffusion model with distillation,Construction of fine-grained channel fingerprints,QuaDRiGa UMa NLoS
+10.1109/twc.2025.3631663,Wen20263d,2,3D Gaussian splatting with MLPs,Wireless radiation field reconstruction for spectrum and CSI prediction,"Measured (NeRF2, BLE RSSI, and Argos datasets)"
+10.1109/twc.2025.3635198,Zheng2026channel,2,Unfolding (proximal gradient) with U-Net,Wideband XL-MIMO channel estimation with constrained unrolling,Near-field model (custom)
+10.1109/twc.2025.3636585,Ying2026generative,2,Transformer and diffusion prior,Massive random access with activity detection and joint estimation and detection,QuaDRiGa UMa NLoS and Rayleigh
+10.1109/twc.2026.3665056,Sang2026continuous,2,Continuous-time Transformer (neural ODE),Channel prediction with a non-uniform pilot pattern,3GPP UMa and DeepMIMO O1
+10.1109/twc.2026.3669634,Weier2026semi,2,GMM and VAE priors,Semi-blind MMSE channel estimation with generative priors,3GPP SCM and measured data (Stuttgart)
+10.1109/twc.2026.3673746,Li2026iterative,2,DL (residual CNN and attention),"Learning-aided iterative receiver for superimposed pilots, evaluated over the air",3GPP CDL-C (Sionna) and USRP measurements
+10.1109/twc.2026.3717451,Gao2026fast,2,Self-supervised CNN and meta-learning,Zero-shot online channel estimation,QuaDRiGa UMi
+10.1109/jiot.2024.3470129,Qi2024reconfigurable,3,DRL (DDPG and MADDPG),RIS phases and power allocation for vehicular edge computing,Rician and fading model (custom)
+10.1109/jiot.2025.3569551,Chen2025fpgas,3,"Complex-valued network, distributed on FPGAs",Beam codebooks adapted to unevenly distributed users,Clustered channel (custom)
+10.1109/jiot.2025.3602389,Batool2025maddpg,3,Multi-agent DRL (MADDPG),RIS and THz resource allocation for IoT,"THz with molecular absorption (custom, Sionna)"
+10.1109/jiot.2025.3616351,Liu2025semantic,3,"Transformer, MLP, and U-Net",RIS-assisted semantic communication for 3D reconstruction,Saleh-Valenzuela and DeepMIMO
+10.1109/jsac.2025.3531575,Cai2025end,3,Unfolding (BCA-MM) and ResNet,Task-oriented semantic communication with learned MIMO precoding,Rician (custom) and image datasets
+10.1109/jsac.2025.3531577,Xu2025ran,3,Hierarchical multi-agent RL and diffusion model,Feedback-free precoder and rank selection across base stations,3GPP CDL on DeepMIMO O1
+10.1109/jsac.2025.3536539,Deng2025transfer,3,CNN and GNN,Sub-6~GHz to mmWave CSI transfer for multiuser hybrid beamforming,DeepMIMO O1 at 3.5 and 28~GHz
+10.1109/lcomm.2024.3363450,Yeh2024enhanced,3,GNN with 3D convolution and attention,Joint active and passive beamforming from angular CSI,Saleh-Valenzuela (custom)
+10.1109/lcomm.2025.3600648,Wang2025lightweight,3,Unfolding (WMMSE) with an RL policy,Robust WMMSE precoding under channel aging,QuaDRiGa UMa NLoS
+10.1109/lcomm.2025.3614755,Chen2025reinforcement,3,Bandit RL (cross-entropy),RIS configuration from RSSI feedback on a testbed,Measured RSSI on an indoor Wi-Fi testbed
+10.1109/lcomm.2025.3620747,Hou2025riss,3,GNN,Double-RIS RSMA beamforming in overloaded networks,Rician and Rayleigh (custom)
+10.1109/lwc.2024.3375796,Farhadi2024meta,3,Meta-DDPG,Spectral and energy efficiency in STAR-RIS-aided SWIPT,Rayleigh and Rician (custom)
+10.1109/lwc.2024.3400127,BouChaaya2024phase,3,Generative flow network,RIS phase configuration conditioned on a channel chart,DeepMIMO Indoor 1
+10.1109/lwc.2024.3400927,Chen2024energy,3,GNN,Energy-efficient multi-RIS rate-splitting multiple access,Rician and Rayleigh (custom)
+10.1109/lwc.2024.3402102,Zhu2024wgan,3,Conditional WGAN-GP,Beamforming of holographic antenna arrays inferred from a few antennas,WAIR-D (map-based dataset)
+10.1109/lwc.2024.3413544,Alizadeh2024aware,3,Unsupervised DNN with differentiable projection,QoS-aware STAR-RIS beamforming,Rician (custom)
+10.1109/lwc.2024.3436576,Wang2024beamforming,3,Liquid neural network (gradient-based),Robust downlink beamforming updated online from objective gradients,DeepMIMO O1 at 28~GHz
+10.1109/lwc.2024.3441605,Wang2024multi,3,Multi-agent DRL (MAPPO) and DNN,Two-timescale one-bit RIS configuration with learned precoding,Rician (custom)
+10.1109/lwc.2024.3466117,Zhang2024generative,3,CVAE with mixture density network and DNN,Optimized probing beams for hybrid beamforming in cell-free networks,DeepMIMO O1 at 28~GHz
+10.1109/lwc.2024.3482720,Chou2025reinforcement,3,DRL (DDPG),Multi-RIS precoding with practical phase-amplitude coupling,Saleh-Valenzuela with 3GPP path loss (custom)
+10.1109/lwc.2025.3543965,Jabbarvaziri2025lora,3,DL (ResNet) with LoRA fine-tuning,Online adaptation of hybrid beamforming,3GPP CDL-A to CDL-E and Sionna ray tracing
+10.1109/lwc.2025.3546633,Turan2025statistical,3,GNN (edge graph attention) and GMM,Statistical multiuser precoding with limited feedback,Spatial channel model and measured data (Stuttgart)
+10.1109/lwc.2025.3608785,Shafique2025gumbelris,3,DL (CNN) with Gumbel-Softmax,"GumbelRIS, 2-bit phase optimization for large RIS-aided MIMO",SimRIS (3GPP-compliant mmWave)
+10.1109/lwc.2026.3683016,Fernandes2026phase,3,Autoencoder and unrolled WMMSE,Joint RIS phase compression and AP beamforming,Geometric multipath (custom)
+10.1109/ojcoms.2024.3509453,Imran2024environment,3,"YOLOv7, FCNN, and LSTM",Camera-aided beam prediction with distributed sensing,DeepSense~6G scenario 41 (measured)
+10.1109/ojcoms.2025.3577193,Ye2025lidar,3,Multimodal Transformer,Beam prediction from fused radar and LiDAR,DeepSense~6G scenario 31 (measured)
+10.1109/ojcoms.2025.3624260,Nasser2025multi,3,Multi-agent DRL (DDQN and DDPG),"RIS partitioning, beam selection, and NOMA power control without CSI",Measured RSSI on a 28~GHz RIS testbed
+10.1109/ojcoms.2026.3661530,Sivasankar2026enhancing,3,Meta-RL (MAML and DQN),RIS-assisted secrecy beamforming in cell-free networks,Rayleigh and Rician with 3GPP UMi path loss (custom)
+10.1109/ojcoms.2026.3687306,Urbinati2026device,3,"DL (MLP), quantized for microcontrollers",On-device RIS codeword selection with latency-rate trade-offs,DeepMIMO O1 at 28~GHz
+10.1109/tccn.2024.3440921,Feys2025pa,3,GNN (edge features),Precoding that steers nonlinear amplifier distortion away from the users,Rayleigh and LoS (custom)
+10.1109/tccn.2025.3538878,Wu2025intelligent,3,"Cross-attention VAE, autoencoder, and CNN",Hybrid precoding for RIS-assisted mmWave MIMO-OFDM,3GPP CDL (MATLAB)
+10.1109/tccn.2025.3552623,Stamatelis2026evolving,3,Attention CNN trained by neuroevolution,Online selection of RIS phases and transmit precoder,Rician (custom) and DeepMIMO O1
+10.1109/tccn.2025.3558026,Mollah2026multi,3,"Multimodal DL (CNN, EfficientNet, and PointNet)","Beam prediction for vehicles from position, camera, and LiDAR",DeepSense~6G V2I and V2V (measured)
+10.1109/tccn.2025.3598069,Wentz2026blind,3,CNN classifier with transfer learning,Blind receive beamforming against interference,Synthetic IQ and ORBIT over-the-air captures
+10.1109/tcomm.2024.3375816,Mehrabian2024spectrum,3,Heterogeneous graph Transformer,"Spectrum, precoding, and phase design for RIS-aided THz from user locations",LoS THz with beam squint (custom)
+10.1109/tcomm.2024.3468208,Liu2025near,3,GNN,Near-field multiuser beam training for XL-MIMO,Wireless InSite smart factory (custom)
+10.1109/tcomm.2024.3483041,Abdallah2025multi,3,Multi-agent DRL (TD3) with transfer,Distributed codebooks for RIS-aided cell-free massive MIMO,DeepMIMO O1 at 60~GHz
+10.1109/tcomm.2024.3490493,Liu2025nmbenet,3,CNN and GNN,"NMBEnet, near-field mmWave beam training from sub-6~GHz pilots",Wireless InSite suburban scenario (custom)
+10.1109/tcomm.2024.3492065,Jin2025beamforming,3,"Unfolding (WMMSE-SCA), GRU, and DDPG",Joint active and passive beamforming with two RISs,Rayleigh and Rician (custom)
+10.1109/tcomm.2024.3496745,Wang2025user,3,Multi-agent DRL (MAPPO),User scheduling and precoding for RIS-aided MU-MISO,Rician (custom)
+10.1109/tcomm.2025.3534528,Wang2025psnet,3,"CNN, attention, and position encoding","PS-Net, position-based precoding with sensing assistance",DeepMIMO dynamic urban scenario
+10.1109/tcomm.2025.3538824,Li2025optimization,3,Multi-agent DRL (MAPPO) with DNN surrogate,Beam selection and power control in multi-cell massive MIMO,QuaDRiGa UMa
+10.1109/tcomm.2025.3538838,Xue2025integrated,3,"Sampling network, CNN, and attention",Probing-beam pattern learning and beam-pair prediction,3GPP indoor factory and OPPO indoor dataset
+10.1109/tcomm.2025.3558504,Le2025graph,3,Heterogeneous GNN,Active and passive beamforming for distributed STAR-RIS,Rician (custom)
+10.1109/tcomm.2025.3562521,Yu2025collaboration,3,Model-based DL in decentralized WMMSE,Resource-efficient beamforming for cell-free massive MIMO,"Rayleigh (custom), CDL for adaptation"
+10.1109/tcomm.2025.3581051,Xu2025empowered,3,LLM (GPT-2 with adapters),"Near-field user classification, precoding, and power allocation for low-altitude users",Near-field spherical-wave model (custom)
+10.1109/tcomm.2025.3599892,Shan2025revisiting,3,Graph RL (GraphSAGE and PPO),Learning to code for topological interference management,Synthetic conflict graphs with ITU-R P.1411 links
+10.1109/tcomm.2025.3600220,Lin2025transformer,3,Transformer and pruned CNN,Time-domain extrapolation of massive MIMO precoders,3GPP CDL-C at 28~GHz
+10.1109/tcomm.2025.3600529,Abouamer2025hypernetwork,3,Hypernetwork (FCNN or GNN),Adaptive RIS beamforming from noisy pilots,Rayleigh and Rician with 3GPP path loss (custom)
+10.1109/tcomm.2026.3655778,Wen2026icwlm,3,Transformer with in-context learning,"ICWLM, a multi-task model for precoding and channel prediction",QuaDRiGa UMa NLoS
+10.1109/tgcn.2024.3401575,Liu2024multi,3,DL (multi-branch Inception CNN),mmWave beamforming from inaccurate CSI and user location,DeepMIMO with channel aging
+10.1109/tgcn.2025.3598001,Feng2026knowledge,3,Autoencoder with knowledge base,Compression of continuous RIS phase shifts for the control channel,SimRIS UMi at 28~GHz
+10.1109/tmc.2024.3495719,Liu2025fd,3,VAE and Gaussian process regression,"Feedback-free precoder, rank, and CQI selection from geolocation",DeepMIMO O1 converted to 3GPP CDL
+10.1109/tmc.2026.3697269,Meng2026rhs,3,Incremental GCN (lifelong learning),Robust hybrid beamforming with holographic surfaces in vehicular networks,Saleh-Valenzuela with Jakes aging (custom)
+10.1109/tmlcn.2024.3402178,Dreifuerst2024hierarchical,3,Multi-task CNN,Hierarchical SSB and CSI-RS codebooks for extreme MIMO,Sionna ray tracing (Munich and Paris)
+10.1109/tmlcn.2024.3419728,Hojatian2024energy,3,Self-supervised DNN (CNN and FC),"Energy-efficient precoders, antenna selection, and RF-chain connections",DeepMIMO O1 at 28~GHz
+10.1109/tmlcn.2024.3420269,Wang2024gnns,3,GNN,End-to-end hybrid precoding from sounding signals for mobile mmWave users,Geometric mmWave with Doppler (custom)
+10.1109/tmlcn.2024.3480044,Guo2024gnns,3,Recursive GNN,Precoding policies that generalize across system sizes,Rayleigh and Saleh-Valenzuela (custom)
+10.1109/tmlcn.2024.3515913,He2025self,3,Contrastive self-supervised CNN,RIS phase prediction for joint active and passive beamforming with few labels,DeepMIMO O3p5B at 3.5~GHz
+10.1109/tmlcn.2025.3562808,Fabiani2025mmimo,3,Unsupervised DNN,Distributed downlink power allocation in cell-free massive MIMO,Correlated Rayleigh (custom)
+10.1109/tsp.2024.3412071,Jiang2024active,3,GRU and DNN (active sensing),"Pilots, precoder, and combiner for reciprocal MIMO without channel estimation","Rayleigh, Sionna ray tracing, and sparse mmWave"
+10.1109/tsp.2025.3550469,Park2025scalable,3,Neural codebooks,Multivariate quantization of the fronthaul in cell-free massive MIMO,3GPP UMi
+10.1109/tsp.2026.3682472,Jha2026csir,3,Unfolding and Bayesian end-to-end learning,Delay-domain sparse precoding that reduces CSIR sounding overhead,IEEE 802.11ax model B
+10.1109/tvt.2024.3368084,He2024learn,3,Unfolding (gradient projection),RIS-aided hybrid beamforming with out-of-distribution generalization,"Rayleigh for training, Rician for testing (custom)"
+10.1109/tvt.2024.3373496,Zhou2024radar,3,Federated transfer learning (CNN),Radar-aided beam selection,DeepSense~6G scenario 9 (measured)
+10.1109/tvt.2024.3452790,Qi2025aoi,3,DRL (SAC),AoI-aware resource allocation and RIS phases for vehicular networks,WINNER+ and Rayleigh (custom)
+10.1109/tvt.2024.3524182,Xu2025leakage,3,Unfolding (projected gradient),Leakage-based precoding for user-centric cell-free massive MIMO,Rayleigh (custom)
+10.1109/tvt.2025.3566408,Bai2025distributed,3,Multi-agent DRL (DDPG),Distributed noncoherent joint transmission in dense small cells,Rayleigh with Gauss-Markov (custom)
+10.1109/tvt.2025.3584798,Fang2025optimizing,3,"DRL (SAC, TD3, DDPG) with digital twin",Site-specific analog codebooks without CSI,"DeepMIMO O1, I2, and I3"
+10.1109/tvt.2025.3594664,Zhang2026sparse,3,Complex-valued CNN,Wideband receive beamforming for sparse arrays from few snapshots,Simulated array signals (custom)
+10.1109/tvt.2025.3619087,Jin2026deployment,3,DRL (dueling double DQN) with GNN,Joint deployment and beamforming of an aerial RIS,Rician (custom)
+10.1109/tvt.2025.3636268,Dai2026risnet,3,Permutation-invariant network and random forest,RIS phases from partial history with change-point detection,DeepMIMO dense urban at 3.5~GHz
+10.1109/tvt.2026.3721078,Chen2026multiuser,3,Gradient-based GNN,Digital and holographic beamforming for multiuser holographic MIMO,Two-path model (custom) and 3GPP CDL-D
+10.1109/twc.2024.3358903,Gu2024graph,3,GNN,Distributed beamforming and power control for massive URLLC,ITU-R path loss with Gauss-Markov fading (custom)
+10.1109/twc.2024.3402267,Wu2024generalized,3,DRL (actor-critic),RIS tile exclusion under concept drift in indoor mmWave,Indoor 28~GHz with L\'evy-walk mobility (custom)
+10.1109/twc.2024.3409430,Alwarafy2024hetnets,3,Multi-task DRL (DDPG),Rate control for RIS-empowered dual-connectivity HetNets,Block fading with shadowing (custom)
+10.1109/twc.2024.3435023,Zhu2024gmml,3,Manifold meta-learning (MLP),Robust RIS-aided beamforming without pre-training,Rician with 3GPP path loss (custom)
+10.1109/twc.2024.3464509,Huang2024tti,3,DRL (SAC),Priority weights across TTIs for WMMSE precoding,QuaDRiGa UMa NLoS
+10.1109/twc.2024.3475950,Patel2024harnessing,3,Multimodal DNN with contrastive loss,"Beamspace prediction from camera, LiDAR, and position for multiuser beamforming",Raymobtime Rosslyn at 60~GHz
+10.1109/twc.2024.3496393,Han2025active,3,LSTM and GNN (active sensing),Multiuser beam tracking with a RIS,Rayleigh and Rician with Gauss-Markov (custom)
+10.1109/twc.2024.3516633,Park2025end,3,DNN (end to end),Uplink pilots and downlink precoders for TDD MIMO in the upper midband,Ray tracing (3GPP UMa) and QuaDRiGa at 7~GHz
+10.1109/twc.2024.3522098,Bi2025bayesian,3,Bayesian RL (soft actor-critic),"RIS-assisted CSI feedback, beamforming, and RIS control",DeepMIMO O1 at 3.5~GHz
+10.1109/twc.2025.3536178,Peng2025risnet,3,Permutation-invariant network (RISnet),RIS phase optimization with mutual coupling and partial CSI,DeepMIMO urban intersection at 3.5~GHz
+10.1109/twc.2025.3541144,Xu2025beamforming,3,Unfolding (majorization-minimization),"UBFNet, weighted sum-rate MU-MIMO beamforming",QuaDRiGa UMa NLoS
+10.1109/twc.2025.3551763,Lim2025distributed,3,Heterogeneous bipartite GNN,User association and beamforming in multi-RIS multi-cell networks,Geometric mmWave (custom)
+10.1109/twc.2025.3563910,He2025intelligent,3,Multi-agent DRL (MAPPO) with a conditional-GAN twin,Broadcast antenna weights optimized for coverage,QuaDRiGa UMa
+10.1109/twc.2025.3580321,Wang2025unified,3,Equivariant networks,Unified models for MU-MIMO precoding and user scheduling,QuaDRiGa UMa NLoS at 3.5~GHz
+10.1109/twc.2025.3585772,Yin2026graph,3,Heterogeneous GNN,Energy-efficient beamforming and RIS phases,Log-distance with Rayleigh fading (custom)
+10.1109/twc.2025.3590424,Liu2026wideband,3,"GNN (3D, with attention)",Wideband user scheduling and hybrid precoding,3GPP UMa NLoS and CDL-A
+10.1109/twc.2025.3596804,Khan2026digital,3,DL (DNN and CNN) with SHAP,Explainable beam prediction assisted by a digital twin,DeepMIMO Boston5G
+10.1109/twc.2025.3597408,Zhu2026precoder,3,DL (CNN),WMMSE parameters predicted for network massive MIMO precoding,QuaDRiGa UMa NLoS at 4.8~GHz
+10.1109/twc.2025.3613976,Shi2026wpcns,3,Unfolding (BCD) with CNN and attention,Throughput of RIS-aided MIMO wireless-powered networks,Rayleigh (custom)
+10.1109/twc.2025.3615583,Cui2026end,3,DL (CNN) with trainable pilots,Beamforming-oriented CSI acquisition for RIS networks,QuaDRiGa UMi LoS
+10.1109/twc.2025.3633144,Zhu2026scalable,3,VQ-VAE and graph attention,"Scalable FDD transceiver with pilots, quantized feedback, and precoding",Wireless InSite ray tracing and 3GPP CDL-B
+10.1109/twc.2026.3658451,Xu2026pass,3,Transformer with KKT-guided dual learning,Joint transmit and pinching beamforming,LoS spherical-wave model (custom)
+10.1109/twc.2026.3686493,Guo2026djscc,3,"CNN, Transformer, and DJSCC","Joint CSI estimation, feedback, and precoding for MU-MIMO OFDM",QuaDRiGa UMa and UMi
+10.1109/twc.2026.3692586,Zhang2026decision,3,Decision Transformer and diffusion model,RIS phases with diffusion-based channel acquisition,Spatially correlated Gaussian (custom)
+10.1109/twc.2025.3562900,Peng2025energy,3,DRL (self-supervised double DQN),RIS phase shifts and uplink power for energy-efficient IoT,SimRIS outdoor at 3.5~GHz
+10.1109/jiot.2025.3586012,Gao2025jcedd,4,DL (U-Net),Lightweight joint channel estimation and detection for OTFS with data augmentation,3GPP NTN-TDL-D (TR~38.811)
+10.1109/lcomm.2025.3605638,Mu2025cross,4,DL (CNN and BiGRU),Cross-domain OTFS channel estimation and equalization,3GPP EVA and ETU at up to 700~km/h
+10.1109/lwc.2024.3412240,Singh2024autoencoder,4,Autoencoder (FFNN),End-to-end OTFS mapper and demapper under hardware impairments,3GPP EVA
+10.1109/lwc.2024.3470778,Li2024scma,4,Autoencoders and MLP,Codebooks and decoding for downlink OTFS-SCMA,3GPP TDL-B at 500~km/h
+10.1109/lwc.2025.3606969,Chang2025receiver,4,Untrained neural networks,OTFS receiver for superimposed pilots that needs no training data,3GPP TDL-B and TDL-E
+10.1109/tcomm.2025.3618703,Zheng2026attentionenhance,4,Unfolding (OAMP) with self-attention,Channel estimation for the massive MIMO-OTFS LEO satellite downlink,3GPP NTN CDL-D (TR~38.811)
+10.1109/tvt.2024.3406192,Reis2024time,4,DL (LSTM and shallow NN),Time-frequency OTFS channel estimation with amplifier nonlinearity,ITU Vehicular A at 300~km/h
+10.1109/tvt.2025.3534796,Qi2025residual,4,DL (residual attention),Delay-Doppler OTFS channel estimation with embedded pilots,Doubly selective model (custom)
+10.1109/tvt.2025.3548639,Wang2025channel,4,Model-driven CNN,OTFS channel estimation with fractional Doppler,3GPP EVA
+10.1109/tvt.2025.3550456,Payami2025sparse,4,CNN and unfolded shrinkage,Sparse channel estimation for massive MIMO-OTFS in the delay-Doppler-angle domain,3GPP SCM UMa
+10.1109/tvt.2025.3592422,Wang2026unfolding,4,Unfolding (ISTA),Channel estimation for zero-padded OTFS,3GPP EVA with Jakes Doppler
+10.1109/twc.2024.3392881,Cheng2024oddm,4,GAN (attention and LSTM) with transfer learning,MIMO-ODDM signal detection,3GPP TDL-C
+10.1109/twc.2024.3407715,Xu20242drc,4,Reservoir computing (2D),Online OTFS symbol detection,3GPP CDL-C at 150~km/h
+10.1109/jiot.2024.3411695,Adhikary2024holographic,5,VAE and Transformer,Holographic MIMO ISAC for energy-efficient cell-free networks,DeepMIMO at 28~GHz
+10.1109/jiot.2024.3420455,Tariq2024quantum,5,"Quantum-classical networks, Transformer",Multimodal beam prediction in V2I ISAC,DeepSense~6G scenarios 31 to 34 (measured)
+10.1109/jiot.2025.3582031,DoostiAref2025otsm,5,DRL (advantage actor-critic),OTSM waveform optimization for mmWave massive MIMO sensing and communication,"DeepSense~6G, highway measurements, and DeepMIMO"
+10.1109/jsac.2025.3607866,Mao2026isacnet,5,Attention network (ISACNet),CRB-oriented transceiver design for bistatic ISAC,Rician (custom)
+10.1109/jsac.2026.3653360,Yu2026sensing,5,Transformer (attention only),Pilot-free DOA estimation of more sources than antennas for beam management,Far-field array model (custom)
+10.1109/jstsp.2024.3405856,ISAC_PredBeam2024,5,"CNN, LSTM, and FCN (EPDnet)",Predictive beamforming for vehicles with complex behaviors,LoS with vehicle kinematics (custom)
+10.1109/lcomm.2025.3588915,AzizElBanna2025autoencoder,5,Autoencoder,Position-assisted beam prediction in mmWave ISAC,DeepSense~6G (measured)
+10.1109/tcomm.2025.3548768,Huang2025integrated,5,LSTM with learned decisioner,Target recognition with customized RIS phases and sensing durations,Physical model (custom) and image datasets
+10.1109/tcomm.2025.3549503,Yang2025som,5,DRL (parameter-shared actor-critic),ISAC hybrid precoding for vehicular networks with double dynamics,Wireless InSite ray tracing with SUMO (custom)
+10.1109/tmc.2025.3618256,Ye2026intelligent,5,Meta-learned hybrid DRL,Multi-objective ISAC with an intelligent omni-surface,Rician with Gauss-Markov (custom)
+10.1109/tmc.2026.3712170,Shang2026multi,5,Pruned Transformer and CVAE,Multimodal V2X beamforming with model compression and missing-modality generation,DeepSense~6G scenarios 31 to 34 (measured)
+10.1109/tmlcn.2025.3562557,Roy2025causally,5,DRL (TD3) with action pruning,Causally aware beam patterns for joint communication and sensing,DeepMIMO O2 dynamic at 3.5~GHz
+10.1109/tvt.2024.3497879,Liang2025predictive,5,DL (CNN with dynamic attention),Predictive beamforming from ISAC echoes in vehicular networks,LoS echo model (custom)
+10.1109/tvt.2025.3559445,Liu2025lora,5,LoRA Transformer-LSTM and GNN,Predictive ISAC beamforming in ultra-dense D2D mmWave networks,LoS with path loss (custom)
+10.1109/tvt.2025.3590145,Tung2026access,5,Semi-supervised heterogeneous GNN,AP activation and power allocation for cell-free ISAC,Rayleigh with shadowing (custom)
+10.1109/twc.2024.3401686,Zhang2024mmff,5,"MLP, ResNet-18, and GRU",Proactive V2I beamforming from multimodal feature fusion,ViWi dist\_cam scenario
+10.1109/twc.2024.3522667,MateosRamos2025end,5,End-to-end learning (differentiable OMP),Multi-target ISAC under hardware impairments,Radar and LoS models at 60~GHz (custom)
+10.1109/twc.2025.3542780,Ye2025intelligent,5,DRL (DDQN with ESN),Omni-surface configuration for ISAC with knowledge transfer,Rician with Gauss-Markov (custom)
+10.1109/twc.2025.3550315,Zhao2025beamform,5,GNN with implicit projection,Joint ISAC transmit beamforming under SINR constraints,Rayleigh (custom)
+10.1109/twc.2025.3624049,Lian2026beamform,5,Link-heterogeneous GNN with attention,Beamforming for cooperative localization and communication,DeepMIMO O1 at 28~GHz
+10.1109/twc.2026.3652128,Xiu2026optimization,5,Meta-RL (MAML and TD3),Robust beamforming and antenna positions for movable-antenna cell-free ISAC,Geometric multipath (custom)
+10.1109/twc.2026.3674789,Jiang2026graph,5,Heterogeneous graph attention and 3D CNN,Cooperative cell-free ISAC from mode selection to estimation,LoS path-loss model (custom) and Sionna RT
+10.1109/jiot.2024.3397796,Zhao2024federated,6,Federated DRL (deep recurrent Q-network),Task partitioning and channel selection in satellite MEC for industrial IoT,LEO geometry with fading (custom)
+10.1109/jiot.2025.3617486,Kim2026energy,6,DRL (D3QN) and unsupervised DNN,Energy-efficient beam hopping and power for LEO,Free-space with shadowing (custom)
+10.1109/jsac.2024.3459029,Li2024collaborative,6,Evolutionary multi-objective DRL (dueling DQN),Collaborative ground-space uplink beamforming,LEO LoS model (custom)
+10.1109/jsac.2026.3650895,Wang2026statistical,6,Equivariant Transformer,Statistical-CSI distributed precoding for cooperative multi-satellite OFDM,QuaDRiGa NTN urban LoS
+10.1109/ojcoms.2024.3376335,Mohammadisarab2024resilient,6,Multi-agent DRL (recurrent DPG),UAV trajectory and resource allocation for disaster relief,Air-to-ground LoS probability with Rayleigh (custom)
+10.1109/ojcoms.2025.3594373,Alwarafy2025reinforcement,6,DRL (PPO),Secure and energy-efficient UAV trajectory and resource allocation,Air-to-ground LoS and NLoS (custom)
+10.1109/ojcoms.2025.3612320,Charan2025sensing,6,"Multimodal DL (MLP, ResNet-50, and GRU)",Sensing-aided beam prediction and tracking for UAVs,DeepSense~6G scenario 23 (measured)
+10.1109/ojcoms.2025.3622661,Saifaldawla2025ngso,6,Transformer encoder (self-supervised),Blind adaptive receive beamforming against NGSO interference,"LoS array response (custom, released)"
+10.1109/ojcoms.2026.3674589,Usta2026transformer,6,Causal Transformer,Beam control with reconfigurable arrays for THz UAV links,LoS THz with ITU-R absorption (custom)
+10.1109/ojcoms.2026.3693471,Shahid2026edge,6,Multi-agent RL (QTRAN),Fractional frequency reuse control in multibeam LEO,LoS model with AIS vessel positions (custom)
+10.1109/tccn.2025.3588245,Lai2026full,6,Heterogeneous GNN,Full-duplex UAV beamforming and power control,LoS probability with Rician fading (custom)
+10.1109/tcomm.2025.3568216,Zhou2025precoding,6,GNN and GNN-based unfolding,Energy-efficient precoding for massive MIMO LEO satellites,Parametric LEO channel (custom)
+10.1109/tcomm.2025.3569690,Omid2025reinforcement,6,DRL (DDPG) with state augmentation,Satellite precoding with delayed CSI,Rician LEO model (custom)
+10.1109/tmc.2025.3558790,Tang2025graph,6,GNN and DRL (SAC),Secure UAV beamforming and deployment,Rician (custom)
+10.1109/tmc.2025.3563072,Wang2025sd3,6,GNN and DRL (SD3),Beamforming and trajectory for a UAV-mounted RIS,Rayleigh and Rician with buildings (custom)
+10.1109/tmlcn.2024.3521876,Rizvi2025multi,6,Multi-agent DQN with action masking,UAV movement and NOMA power for mobile users,3GPP TR~36.777 path loss with custom fading
+10.1109/tvt.2024.3377647,Wu2024task,6,DRL (DDPG with self-attention),Task offloading and resources in multi-UAV multi-server systems,Distance path loss (custom)
+10.1109/tvt.2024.3514860,Wang2025optimization,6,GNN (graph attention),UAV placement and beamforming for energy efficiency,LoS free-space (custom)
+10.1109/tvt.2024.3523331,Tang2025dynamic,6,Multi-agent DRL (DDQN and DDPG),Spectrum sharing in satellite-terrestrial networks,Shadowed-Rician and Nakagami (custom)
+10.1109/tvt.2025.3575290,Qing2025stars,6,DRL (SAC with attention),STAR-RIS-assisted air-ground ISAC,Rician (custom)
+10.1109/tvt.2025.3608176,Bo2026multi,6,Multi-agent PPO (Stackelberg game),Dynamic resource allocation for multibeam GEO,Bessel beams with weather attenuation (custom)
+10.1109/twc.2024.3392644,Geng2024zero,6,GRNN and twin DQN with meta-learning,Zero-shot beam management for LEO,Free-space with Rician (custom)
+10.1109/twc.2024.3489624,Cheng2025radcom,6,Multi-agent parametrized DQN,UAV trajectory and radar-communication scheduling for vehicular networks,Air-to-ground LoS and radar echo (custom)
+10.1109/twc.2025.3568780,Ngo2025fast,6,Fuzzy DRL (DDPG),Beam design and power for GEO-LEO coexistence,Shadowed-Rician with Iridium orbits (custom)
+10.1109/twc.2025.3605277,Yin2026m2llm,6,DRL (DDPG) with a fine-tuned multimodal LLM,UAV trajectory and beamforming,Air-to-ground model and AirSim data (custom)
+10.1109/twc.2025.3618614,Tang2026graph,6,Graph attention and MADDPG,Anti-jamming UAV beamforming and deployment,Rician (custom)
+10.1109/twc.2026.3677272,Yang2026embodied,6,Multi-agent double DQN with experience transfer,Anti-jamming resource allocation for low-altitude networks,USRP testbed (measured) and custom model after TR~36.777
+10.1109/twc.2026.3693600,Li2026mmimo,6,Transformer and mixture of experts,Channel prediction and power allocation in aerial-terrestrial cell-free massive MIMO,Rician and Rayleigh with aging (custom)
+10.1109/jsac.2024.3431572,Qiao2024massive,7,"Federated learning, digital AirComp",Massive digital over-the-air computation for federated edge learning,i.i.d. Gaussian (custom) and CIFAR-10
+10.1109/jsac.2026.3739217,Jang2026fedzoe,7,Zeroth-order federated learning,"Fed-ZOE, communication-efficient over-the-air FL",3GPP UMi O2I at 2.4~GHz
+10.1109/ojcoms.2024.3372893,Kalarde2024beamforming,7,Federated learning (ResNet-14),Device selection with receive beamforming for over-the-air aggregation,Gaussian with COST-Hata path loss (custom)
+10.1109/tvt.2024.3506950,Guo2025wireless,7,"Federated learning, low-rank updates",Over-the-air aggregation of low-rank gradient factors,i.i.d. Gaussian (custom)
+10.1109/twc.2025.3626720,MoradiKalarde2026power,7,Federated learning (ResNet-14),Transmit power control for over-the-air aggregation under receive beamforming,Gaussian with COST-Hata path loss (custom)
+10.1109/twc.2026.3693235,Zheng2026improving,7,Semi-federated learning,Energy-efficient semi-federated learning by shaping the over-the-air distortion,3GPP CDL
+10.1109/jiot.2025.3608206,Gao2025messagepassingbased,1,NN within Bayesian message passing,Uplink ISAC detection and DOA estimation under hardware impairments,Random-DOA linear array model with impairments (custom)
+10.1109/lwc.2025.3582828,Ren2025mixture,1,Unfolding (PGD) with mixture of experts,Grant-free activity detection for RIS-aided and direct-link devices,Rician and Rayleigh (custom)
+10.1109/lcomm.2025.3578081,ChusnaMayarakaca2025twostep,1,Denoising autoencoder (CNN) and DNN,"Downlink MIMO-NOMA detection without successive cancellation, after denoising",Stochastic channels with imperfect CSI (custom)
+10.1109/lwc.2025.3543890,Qian2025simplified,1,DL (MLP and CNN) with product quantization,Uplink MIMO detection with lookup tables in place of matrix products,Rayleigh and correlated Rayleigh (custom)
+10.1109/lwc.2025.3542412,PourmohammadAzizi2025detection,1,Unfolding (gradient descent with momentum),Uplink symbol detection at the BS of a RIS-assisted massive MIMO system,Rayleigh (custom)
+10.1109/ojcoms.2025.3567495,Yu2025sequence,1,Transformer (GPT-2-style decoder),In-context uplink equalization across base stations with quantized fronthaul,Correlated Rayleigh with shadowing (custom)
+10.1109/tsp.2025.3582082,Wang2025distributionally,1,Robust kernel ridge regression,Receive combining without channel estimation under scarce pilots and impulsive noise,Geometric multipath (custom)
+10.1109/twc.2024.3516738,Bai2025low,1,DL (FFNN),Soft outputs for each layer of partial maximum a posteriori detection,Rayleigh and Kronecker (custom)
+10.1109/lcomm.2024.3518234,Zhang2025clusteringbased,1,K-means clustering (unsupervised),Blind detection without CSI for RIS-assisted receive spatial modulation,Rayleigh (custom)
+10.1109/tcomm.2024.3516504,Du2025quasineural,1,Quasi-neural network (one hidden layer),Likelihoods for Viterbi detection under non-Gaussian interference,Multipath channels with non-Gaussian noise (custom)
+10.1109/lwc.2024.3463392,Zeng2024dlaqua,1,Learned fixed-point quantization,"Bitwidths of a massive MIMO MMSE detector, trained through the detector",Rayleigh (custom)
+10.1109/lcomm.2024.3451655,Daha2024optimizing,1,DL (FFNN),"Symbol detection from the received signal and the channel, against linear detectors",Rayleigh (custom)
+10.1109/lwc.2024.3415175,Yue2024learned,1,Two small FFNNs,Candidate list and symbol marginals for soft MIMO-OFDM detection with LDPC codes,Correlated Rayleigh (custom)
+10.1109/lwc.2024.3402398,Hu2024isac,1,Transformer (sliding window),Symbol detection in a multi-antenna uplink ISAC OFDM receiver before target estimation,Random multipath with steering vectors (custom)
+10.1109/tgcn.2024.3393854,Zheng2024snnot,1,Spiking NN trained on chip,Binary classifier of a $2\times2$ MIMO-OFDM receiver on a neuromorphic chip,WINNER II urban macrocell and Gaussian channel
+10.1109/tvt.2026.3705961,Wang2026preequalization,4,N-BEATS and residual DNN,"Transmit pre-equalization so the UAV needs no equalizer, balanced against sensing",Wireless InSite ray tracing (custom)
+10.1109/jiot.2026.3684049,Yue2026complexvalued,4,Complex-valued GNN,Detection under fractional Doppler and imperfect gain and Doppler estimates,Three-path fractional-Doppler model (custom)
+10.1109/ojcoms.2026.3741196,Marchese2026exploiting,4,DL (FFNN classifier),Number of paths for a correlation-based delay-Doppler estimator reused for sensing,Rayleigh with Jakes Doppler (custom)
+10.1109/tccn.2025.3618264,He2026collaborative,4,LSTM with physics-informed loss,CSI prediction from past estimates to replace pilots in a LEO OTFS downlink,QuaDRiGa satellite-ground link
+10.1109/tccn.2025.3576813,Li2026antijamming,4,DL (CNN and BiLSTM),Bit recovery from the delay-Doppler frame under spot jamming,Free-space path loss with shadowing (custom)
+10.1109/twc.2025.3566173,Tao2025channel,4,Unfolded Bayesian learning and CNN,Equivalent delay-Doppler CSI and secondary RIS symbols in OTFS symbiotic radio,Delay-Doppler multipath at 28~GHz (custom)
+10.1109/lwc.2025.3538017,Zhang2025receiver,4,DL (CNN and ResNet),Underwater acoustic OTFS detection from pilot features and received data,Six-path underwater acoustic model (custom)
+10.1109/twc.2025.3525738,Shen2025leo,4,DL (complex residual CNN),Symbol posteriors after message passing in grant-free LEO random access,3GPP NTN-TDL-D (TR~38.811)
+10.1109/tcomm.2025.3636093,Zhang2025otfs,4,"Plug-and-play ADMM (CNN, MLP)",Delay-Doppler channel estimation and detection with learned denoisers inside ADMM,Five-path delay-Doppler model (custom)
+10.1109/tvt.2024.3408059,Tan2024radar,4,Faster R-CNN (ResNet with attention),Count and delay-Doppler position of radar targets from the OTFS correlation matrix,Point targets in white Gaussian noise (custom)
+10.1109/lwc.2024.3395700,Zhuang2024approximate,4,GNN within AMP,Iterative detection with a learned approximation of inter-Doppler interference,Exponential power delay profile (custom)
+10.1109/lcomm.2024.3362970,Yue2024mdoamp,4,Unfolding (OAMP),Delay-Doppler symbol detection robust to channel estimation errors,Sparse multipath with fractional Doppler (custom)
+10.1109/tvt.2024.3493921,Ying2025path,4,Autoencoder (3D CNN) and RNN,Significant delay-Doppler-angle elements predicted before LS estimation,Clustered scatterers at 30~GHz (custom)
+10.1109/tvt.2024.3450012,Zhang2024drsnn,4,Deep residual shrinkage network,Denoising of the LS delay-Doppler estimate with learned sparsity thresholds,"Four-path model, Gaussian and $t$-distributed noise (custom)"
+10.1109/lwc.2024.3367112,Mattu2024timefrequency,4,DL (two FFNNs),Delay-Doppler parameter matrix columns inside a fractional channel estimator,"Synthetic tuples (custom), ITU Vehicular A for testing"
+10.1109/lwc.2024.3354280,Jing2024learned,4,DL (FastDVDNet U-Net denoisers),Denoising of adaptive-filter delay-Doppler estimates in underwater acoustic OTFS,Statistical underwater acoustic model (custom)
+10.1109/jsac.2025.3647013,Yang2026fasllm,4,LLM (LLaMA-3 1B with LoRA),Delay-Doppler channel prediction for a fluid-antenna satellite receiver,Rician with correlated ports (custom)
+10.1109/tmc.2026.3672678,Huang2026experiencecentric,5,DRL and convex optimization,"Bandwidth, power, and computing split among user groups for quality of experience",Path loss on a real Waterloo layout (custom)
+10.1109/tmc.2026.3665626,Chen2026modelbased,5,LLM (GPT-4) within gray wolf optimization,Precoder search trading rate against the sensing CRB in near-field ISAC,Near-field spherical-wave model (custom)
+10.1109/tmc.2026.3652165,Zhang2026adaptive,5,DRL (PPO mixture of experts) and Informer,"Beamformers, active-RIS phases, and power splits for sensing, data, and power transfer",Rician (custom)
+10.1109/tccn.2026.3676012,Jiang2026hierarchical,5,"Multi-agent DRL (DQN, actor-critic)","Access-point pairing, bandwidth, and power for rate and sensing in cell-free ISAC",Distance-based fading with steering vectors (custom)
+10.1109/tvt.2026.3739517,Wang2026beam,5,DRL (PPO),"Beam scheduling from echoes and buffers, trading latency against sensing error",LoS and Rician road scene (custom)
+10.1109/twc.2026.3666846,Zhang2026modelenabled,5,LLM (GPT-2 with LoRA) and primal-dual DNN,"UAV range and angle prediction from echoes, then sum-rate beamforming",LoS steering-vector model (custom)
+10.1109/twc.2026.3693103,Zhang2026predictive,5,DL (CNN and LSTM with attention),"Beamformer from past CSI, trading rate against harvested energy",LoS planar-array model with moving UAVs (custom)
+10.1109/twc.2026.3709579,Wang2026extended,5,GNN (unsupervised),Beamforming that minimizes the CRB of a 3D extended target,Saleh-Valenzuela (custom)
+10.1109/tmc.2026.3709576,Bai2026age,6,DRL (SAC),"UAV motion, beams, and sensing-user power split to minimize the age of information","Free-space LoS, planar array (custom)"
+10.1109/tmc.2026.3700664,Ji2026optimization,6,DRL (DDPG) and LLM (Qwen3),"Power and resource blocks for vehicles, with an LLM reassigning failed tasks",Path loss with Rayleigh and Rician fading (custom)
+10.1109/twc.2026.3667951,Feng2026topology,7,Decentralized federated learning,Beamformers and topology for decentralized aggregation over MIMO D2D links,Rayleigh (custom) and CIFAR-10
+10.1109/twc.2026.3742944,Hu2026transceiver,7,Federated distillation,Transmit power and receive beamforming for over-the-air aggregation of soft predictions,i.i.d. Gaussian (custom) and image datasets
+10.1109/tmc.2025.3610887,Wang2025privacypreserving,7,Federated learning (CNNs),MIMO beamforming for over-the-air aggregation of encrypted updates,Rayleigh (custom) and image datasets
+10.1109/jiot.2025.3594141,Ahmadzadeh2025fluid,7,DRL (LSTM-DDPG),Receive beamforming and fluid-antenna positions that maximize the selected clients,Rician (custom) and MNIST
+10.1109/tccn.2025.3578472,Li2026federated,7,Federated ADMM,"Equalization, beamforming, and shared RIS phases for over-the-air aggregation",Rician (custom) and image datasets
+10.1109/twc.2025.3567598,Zhong2025overtheair,7,Federated learning (CNN and ResNet-18),Sparse-coded multiplexing of gradients over a MIMO multiple-access channel,i.i.d. Gaussian (custom) and image datasets
+10.1109/lcomm.2025.3566303,Qi2025energy,7,Federated learning (ResNet-9),Energy-saving power control of LEO satellites for over-the-air aggregation,Rayleigh (custom) and CIFAR-10
+10.1109/tvt.2025.3559147,Fu2025design,7,"Federated learning (CNN, ResNet-18)","Power, UAV placement, and sensing batch size for over-the-air aggregation",Free-space LoS (custom) and image datasets
+10.1109/lwc.2025.3557016,Li2025latency,7,"Federated learning, no training run","Equalization, beamforming, and RIS phases for low-latency covert aggregation",Rayleigh with path loss (custom)
+10.1109/twc.2025.3549499,Ma2025overtheair,7,Federated learning and neural decoder,Aggregation in a MIMO cloud radio access network with learned fronthaul compression,i.i.d. Gaussian (custom) and image datasets
+10.1109/tsp.2025.3589658,Yao2025overtheair,7,Federated learning (CNN),Hybrid beamforming against inter-task interference in multitask aggregation,i.i.d. Gaussian (custom) and image datasets
+10.1109/twc.2024.3497998,Sun2025federated,7,Federated LoRA (GPT-2 and Llama),"MIMO-OFDM hybrid beamforming, rank, and subcarriers for aggregating LoRA gradients",Saleh-Valenzuela (custom) and text datasets
+10.1109/tvt.2024.3499349,Zhou2025overtheair,7,Personalized federated learning,Receive beamforming at cloud and edge servers for hierarchical aggregation,Rician (custom) and image datasets
+10.1109/lwc.2024.3486201,Cui2024overtheair,7,"Hierarchical DRL (SAC, actor-critic)",Access-point association and device power for cell-free over-the-air aggregation,Rayleigh (custom) and image datasets
+10.1109/twc.2024.3466177,Zheng2024retransmissionbased,7,Semi-federated learning,Retransmission-based over-the-air aggregation with digital data upload,Rayleigh (custom) and image datasets
+10.1109/tvt.2024.3465558,Rakesh2025overtheair,7,Federated averaging,Delay-Doppler precoding and channel tracking for over-the-air aggregation,3GPP EVA with Gauss-Markov gains
+10.1109/twc.2024.3425732,Wang2024digital,7,"Federated learning, MLP predictor",Digital aggregation with predicted updates and transmit-receive beamforming,Rayleigh and Rician (custom) and image datasets
+10.1109/lwc.2024.3399828,Kim2024reconfigurable,7,"Federated learning (MLP, CNN)",Receive beamforming and RIS phases that maximize the participating devices,Rician (custom) and MNIST
+10.1109/twc.2024.3385443,Zhai2024decentralized,7,Decentralized federated learning,Beamformers and mixing matrix for aggregation over full-duplex D2D links,Rayleigh (custom) and MNIST
+10.1109/lwc.2024.3382498,Zhong2024channelestimationfree,7,Federated learning (CNN),"Receive combining from training symbols, without channel estimation",i.i.d. Gaussian (custom) and image datasets
+10.1109/jiot.2024.3360190,Xu2024random,7,Federated learning (ResNet-18),Device selection and random-sampling receive beamforming for large networks,Rayleigh (custom) and CIFAR-10
+10.1109/jiot.2025.3619965,Fu2025adaptive,7,Federated learning (CNN),Receive beamforming and local iterations adapted to the computing time of vehicles,Unspecified channel model and traffic-sign images
+10.1109/twc.2025.3595700,Zhang2026wireless,7,Federated learning (CNN),Joint downlink multicast and uplink beamforming for analog aggregation,Rayleigh with shadowing (custom) and MNIST
+10.1109/tvt.2025.3590980,Yue2026federated,7,Federated learning (CNN),Active STAR-RIS phases and receive beamforming for gradient aggregation,Rician (custom) and MNIST

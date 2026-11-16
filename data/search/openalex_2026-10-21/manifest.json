@@ -1,0 +1,17 @@
+{
+ "database": "OpenAlex",
+ "endpoint": "https://api.openalex.org/works",
+ "started_utc": "2026-10-22T01:04:26+00:00",
+ "finished_utc": "2026-10-22T01:04:58+00:00",
+ "query": "((\"machine learning\" OR \"deep learning\" OR \"neural network\" OR \"reinforcement learning\" OR \"federated learning\" OR \"learning-based\" OR \"deep unfolding\" OR \"graph neural\" OR \"transformer\" OR \"generative\" OR \"diffusion model\" OR \"language model\" OR \"meta-learning\" OR \"artificial intelligence\" OR \"data-driven\" OR \"autoencoder\" OR \"convolutional\" OR \"LSTM\") AND ((\"reconfigurable intelligent surface\" OR \"intelligent reflecting surface\" OR \"RIS\" OR \"IRS\" OR \"metasurface\" OR \"large intelligent surface\" OR \"STAR-RIS\") OR ((\"MIMO\" OR \"multiple-input multiple-output\" OR \"multi-antenna\" OR \"multiple antennas\" OR \"antenna array\") AND ((\"MIMO detection\" OR \"MIMO detector\" OR \"signal detection\" OR \"symbol detection\" OR \"data detection\" OR \"multiuser detection\" OR \"multi-user detection\" OR \"decoding\" OR \"demodulation\" OR \"demodulator\" OR \"equalization\" OR \"equalizer\") OR (\"channel estimation\" OR \"channel estimator\" OR \"CSI feedback\" OR \"CSI compression\" OR \"channel feedback\" OR \"channel prediction\" OR \"CSI prediction\" OR \"channel modeling\" OR \"channel modelling\" OR \"channel generation\" OR \"CSI acquisition\") OR (\"beamforming\" OR \"precoding\" OR \"precoder\" OR \"beam training\" OR \"beam prediction\" OR \"beam selection\" OR \"beam management\"))) OR (\"OTFS\" OR \"orthogonal time frequency space\" OR \"delay-Doppler\") OR (\"integrated sensing and communication\" OR \"integrated sensing and communications\" OR \"ISAC\" OR \"dual-function radar\" OR \"joint radar and communication\" OR \"joint communication and sensing\") OR ((\"satellite\" OR \"non-terrestrial\" OR \"high-altitude platform\" OR \"UAV\" OR \"unmanned aerial vehicle\") AND (\"beam\" OR \"beamforming\" OR \"precoding\" OR \"power allocation\" OR \"power control\" OR \"resource allocation\")))) OR (\"federated\" AND (\"over-the-air\" OR \"AirComp\" OR \"analog aggregation\"))",
+ "filter": "from_publication_date:2024-01-01,language:en,type:article,primary_location.source.id:S90422530|S63459445|S196647941|S168680287|S42167783|S10936095|S2484188435|S4387283721|S4210192662|S2480266640|S69141925|S4210202420|S2500830676|S147316732",
+ "select": "id,doi,title,publication_date,publication_year,type,language,primary_location,open_access,best_oa_location,abstract_inverted_index,authorships",
+ "per_page": 100,
+ "paging": "page number, sort=doi",
+ "count": 1426,
+ "saved": 1426,
+ "unique": 1426,
+ "credits_used": 160,
+ "python": "3.14.5",
+ "script_sha256": "1b9247b768490133701894d26fad2552f46e47cf1602d46f111dcf8096c3a679"
+}
