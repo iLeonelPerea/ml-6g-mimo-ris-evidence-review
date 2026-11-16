@@ -6,6 +6,7 @@ Data and code of the review *Scoring the Evidence Behind Machine Learning for 6G
 
 | Path | Content |
 |---|---|
+| `protocol.pdf` | Protocol of the review, with the amendments made after the search |
 | `data/search/` | OpenAlex export of the search with its manifest, and the counts of the screening log |
 | `data/screening_log.csv` | One row per record, with the decisions on the title and abstract and on the full text |
 | `data/assistant/ta_*` | Instructions and answers of the two screening runs |
